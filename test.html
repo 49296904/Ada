@@ -1,32 +1,53 @@
-    <!DOCTYPE html>  
-    <html>  
-    <head>  
-      <title>table拖动列宽</title>            
-    </head>  
-    <body>
-	
-     <table width="100%" border="1" class="resizable-table">  
-		<tr>
-			<th width="10%">1</th>
-			<th width="20%">2</th>
-			<th width="70%">3</th>
-		</tr>
-        <tr>  
-           <td>1</td><td>2</td><td class="right">3</td>  
-        </tr>  
-        <tr>  
-            <td>1</td><td>2</td><td class="right">3</td>   
-        </tr>  
-        <tr>  
-            <td>1</td><td>2</td><td class="right">3</td>  
-        </tr>  
-        <tr>  
-            <td>1</td><td>2</td><td class="right">3</td>  
-        </tr>                                                                   
-    </table>               
-     </body> 
+<!DOCTYPE HTML>  
+<html>  
+<head>  
+    <meta charset="UTF-8">  
+    <title>CSS3 Demo</title>
+ 
+</head>
+ 
+<body>
+    <div id="box2" style="width:500px; height:500px; border:1px solid red;" onpointerdown="down()" onpointermove="move()" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
+       Pointer
+    </div>
+	<div style="width:300px; height:300px; border:1px solid blue; overflow:auto;">
+	<div id="box2" style="width:500px; height:500px; border:1px solid red;" onpointerdown="down()" onpointermove="move()" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
+       Pointer2 Pointer2-1 Pointer2-2 Pointer2-3
+    </div>
+	</div>
+	<span id = "x"></span>
+	<br/>
+	<span id = "y"></span>
+<script type="text/javascript">
+function up()
+{
+	console.info("pointerup");
+}
+function out()
+{
+	console.info("pointerout");
+}
+function down()
+{
+	console.info("pointerdown");
+	document.getElementById("x").innerHTML = "down";
+}
+function move()
+{
+	console.info("pointermove");
+	document.getElementById("x").innerHTML = event.clientX;
+	document.getElementById("y").innerHTML = event.clientY;
+}
+function cancel(evt)
+{
+	console.info("pointercancel");
+	//return true;
+}
+function cancel1(evt)
+{
+	console.info("pointercancel1");
+}
 
-    <script  src="jquery.js"></script>  
-    <script  src="colResizable-1.6.min.js"></script>  
-	<script  src="colResizable-1.6.js"></script>  	 
-     </html>  
+</script>
+</body>
+</html>
