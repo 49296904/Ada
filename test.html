@@ -7,21 +7,33 @@
 </head>
  
 <body>
-    <div id="box2" style="width:100px; height:100px; border:1px solid red;" onpointerdown="down()" onpointermove="move()" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
+    <div id="box2" style="width:500px; height:500px; border:1px solid red;" onpointerdown="down()" onpointermove="move()" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
        Pointer
     </div>
 	<div style="width:300px; height:300px; border:1px solid blue; overflow:auto;">
-	<div id="box2" style="width:500px; height:500px; border:1px solid red;" onpointerdown="down()" ontouchmove ="move()"  onpointermove="move(event)" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
-       Pointer2 Pointer2-1 Pointer2-2 Pointer2-3
+	<div id="box3" style="width:500px; height:500px; border:1px solid red;" onpointermove="move2()" onpointercancel="cancel()" onpointerout="out()" onpointerup="up()">
+       <p>Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1 - Pointer 1</p>
+	   <p>Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2 - Pointer 2</p>
+	   <p>Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3 - Pointer 3</p>
     </div>
 	</div>
 	<span id = "x"></span>
 	<br/>
 	<span id = "y"></span>
 <script type="text/javascript">
+setInterval(function(){
+ ////document.getElementById("box3").innerHTML = "";
+ //document.getElementById("box3").innerHTML = '<div onpointermove="move()" style="width:400px; height:400px; border:1px solid green;">123</div>';
+ }, 3000);
+ 
+ document.getElementById("box3").addEventListener(
+  'pointerdown',
+  down,
+  { passive: false }
+);
 function up()
 {
-	console.info("pointerup");
+console.info("pointerup");
 }
 function out()
 {
@@ -34,7 +46,15 @@ function down()
 }
 function move()
 {
-	
+	//event.preventDefault();
+	console.info("pointermove");
+	document.getElementById("x").innerHTML = event.clientX;
+	document.getElementById("y").innerHTML = event.clientY;
+}
+function move2()
+{
+	//event.preventDefault();
+	////document.getElementById("box3").scrollTo(event.clientX, event.clientY);
 	console.info("pointermove");
 	document.getElementById("x").innerHTML = event.clientX;
 	document.getElementById("y").innerHTML = event.clientY;
