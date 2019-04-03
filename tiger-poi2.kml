@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.google.com/kml/ext/2.2" xmlns:ns3="http://www.w3.org/2005/Atom" xmlns:ns4="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+    <Document>
+        <LookAt>
+            <longitude>-74.00668149807987</longitude>
+            <latitude>40.713716095854025</latitude>
+            <altitude>2009.2659535747807</altitude>
+            <heading>0.0</heading>
+            <tilt>0.0</tilt>
+            <range>1623.592279843792</range>
+            <altitudeMode>clampToGround</altitudeMode>
+        </LookAt>
+        <Folder>
+            <name>tiger:poi</name>
+            <LookAt>
+                <longitude>-74.00668149807987</longitude>
+                <latitude>40.713716095854025</latitude>
+                <altitude>2009.2659535747807</altitude>
+                <heading>0.0</heading>
+                <tilt>0.0</tilt>
+                <range>1623.592279843792</range>
+                <altitudeMode>clampToGround</altitudeMode>
+            </LookAt>
+            <Placemark id="poi.1">
+                <name>museam</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;museam&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037827-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037827-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.01046109936334</longitude>
+                    <latitude>40.70758762625656</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.01046109936333,40.707587626256554</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="poi.2">
+                <name>stock</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;stock&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037829-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037829-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.0108375113659</longitude>
+                    <latitude>40.70754683896325</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.0108375113659,40.70754683896324</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="poi.3">
+                <name>art</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;art&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037856-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037856-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.01053023879956</longitude>
+                    <latitude>40.70938711687079</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.01053023879955,40.70938711687079</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="poi.4">
+                <name>lox</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;lox&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037884-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037884-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.00857344353275</longitude>
+                    <latitude>40.711945649065406</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.00857344353275,40.711945649065406</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="poi.5">
+                <name>church</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;church&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037839-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/22037839-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.0118315772888</longitude>
+                    <latitude>40.708529961953786</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.0118315772888,40.708529961953786</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="poi.6">
+                <name>fire</name>
+                <description>&lt;h4&gt;poi&lt;/h4&gt;
+
+&lt;ul class="textattributes"&gt;
+  
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;NAME&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;fire&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;THUMBNAIL&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/28640984-Ti.jpg&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;span class="atr-name"&gt;MAINPAGE&lt;/span&gt;:&lt;/strong&gt; &lt;span class="atr-value"&gt;pics/28640984-L.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <LookAt>
+                    <longitude>-74.00153046439814</longitude>
+                    <latitude>40.719885123828675</latitude>
+                    <altitude>0.0</altitude>
+                    <heading>0.0</heading>
+                    <tilt>0.0</tilt>
+                    <range>0.0</range>
+                    <altitudeMode>clampToGround</altitudeMode>
+                </LookAt>
+                <Style>
+                    <IconStyle>
+                        <scale>0.6875</scale>
+                        <heading>0.0</heading>
+                        <Icon>
+                            <href>http://localhost:8080/geoserver/kml/icon/poi?0.0.0=&amp;0.0.1=</href>
+                        </Icon>
+                    </IconStyle>
+                    <LabelStyle>
+                        <color>ff000000</color>
+                        <scale>1.4</scale>
+                    </LabelStyle>
+                </Style>
+                <Point>
+                    <coordinates>-74.00153046439813,40.719885123828675</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+    </Document>
+</kml>
