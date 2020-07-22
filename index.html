@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html style="overflow: hidden;">
+<head>
+    <script type="text/javascript" src="instascan.min.js"></script>
+    <title>QRCode_Scanner</title>
+</head>
+<body>
+
+	<input type="button" id="startCamera" title="Start Camera" value="Start Camera" />
+	<input type="button" id="stopCamera" title="Stop Camera" value="Stop Camera" />
+	<div style="margin: 1px;"><span id="scanCode">&nbsp;</span></div>
+	<div style="margin: 1px;"><span id="errorMsg" style="color:red;">&nbsp;</span></div>
+		<div style="width:90vw;height:85vh;background-color:#a3a3a3;text-align:center;vertical-align:middle;line-height:98vh;border:solid;border-width:thin;border-color:#e6e9eb">
+		<video id="preview" style="width:100%; height:100%;"></video>
+	</div>
+	<script src="QRCode_Scanner.js"></script>
+</body>
+</html>
